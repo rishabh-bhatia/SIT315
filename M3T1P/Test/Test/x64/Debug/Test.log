@@ -1,0 +1,11 @@
+﻿  Test.cpp
+Test.obj : error LNK2019: unresolved external symbol MPI_Barrier referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Bcast referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Gather referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Scatter referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Comm_size referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Comm_rank referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Init referenced in function main
+Test.obj : error LNK2019: unresolved external symbol MPI_Finalize referenced in function main
+C:\Program Files\Microsoft HPC Pack 2012\Lib\i386\msmpi.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\vasu_\Desktop\Rishabh\Test\x64\Debug\Test.exe : fatal error LNK1120: 8 unresolved externals

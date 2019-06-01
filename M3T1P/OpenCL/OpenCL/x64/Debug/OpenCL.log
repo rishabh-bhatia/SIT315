@@ -1,0 +1,30 @@
+﻿Ocl.obj : error LNK2019: unresolved external symbol MPI_Barrier referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Bcast referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Gather referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Scatter referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Comm_size referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Comm_rank referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Init referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol MPI_Finalize referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol clGetPlatformIDs referenced in function "struct _cl_device_id * __cdecl create_device(void)" (?create_device@@YAPEAU_cl_device_id@@XZ)
+Ocl.obj : error LNK2019: unresolved external symbol clGetDeviceIDs referenced in function "struct _cl_device_id * __cdecl create_device(void)" (?create_device@@YAPEAU_cl_device_id@@XZ)
+Ocl.obj : error LNK2019: unresolved external symbol clCreateContext referenced in function "void __cdecl setup_openCL_device_context_queue_kernel(void)" (?setup_openCL_device_context_queue_kernel@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clReleaseContext referenced in function "void __cdecl free_memory(void)" (?free_memory@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clCreateCommandQueueWithProperties referenced in function "void __cdecl setup_openCL_device_context_queue_kernel(void)" (?setup_openCL_device_context_queue_kernel@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clReleaseCommandQueue referenced in function "void __cdecl free_memory(void)" (?free_memory@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clCreateBuffer referenced in function "void __cdecl setup_kernel_memory(int,int *,int *)" (?setup_kernel_memory@@YAXHPEAH0@Z)
+Ocl.obj : error LNK2019: unresolved external symbol clReleaseMemObject referenced in function "void __cdecl free_memory(void)" (?free_memory@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clCreateProgramWithSource referenced in function "struct _cl_program * __cdecl build_program(struct _cl_context *,struct _cl_device_id *,char const *)" (?build_program@@YAPEAU_cl_program@@PEAU_cl_context@@PEAU_cl_device_id@@PEBD@Z)
+Ocl.obj : error LNK2019: unresolved external symbol clReleaseProgram referenced in function "void __cdecl free_memory(void)" (?free_memory@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clBuildProgram referenced in function "struct _cl_program * __cdecl build_program(struct _cl_context *,struct _cl_device_id *,char const *)" (?build_program@@YAPEAU_cl_program@@PEAU_cl_context@@PEAU_cl_device_id@@PEBD@Z)
+Ocl.obj : error LNK2019: unresolved external symbol clGetProgramBuildInfo referenced in function "struct _cl_program * __cdecl build_program(struct _cl_context *,struct _cl_device_id *,char const *)" (?build_program@@YAPEAU_cl_program@@PEAU_cl_context@@PEAU_cl_device_id@@PEBD@Z)
+Ocl.obj : error LNK2019: unresolved external symbol clCreateKernel referenced in function "void __cdecl setup_openCL_device_context_queue_kernel(void)" (?setup_openCL_device_context_queue_kernel@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clReleaseKernel referenced in function "void __cdecl free_memory(void)" (?free_memory@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clSetKernelArg referenced in function "void __cdecl copy_kernel_args(void)" (?copy_kernel_args@@YAXXZ)
+Ocl.obj : error LNK2019: unresolved external symbol clWaitForEvents referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol clEnqueueReadBuffer referenced in function main
+Ocl.obj : error LNK2019: unresolved external symbol clEnqueueWriteBuffer referenced in function "void __cdecl setup_kernel_memory(int,int *,int *)" (?setup_kernel_memory@@YAXHPEAH0@Z)
+Ocl.obj : error LNK2019: unresolved external symbol clEnqueueNDRangeKernel referenced in function main
+C:\Program Files\Microsoft HPC Pack 2012\Lib\i386\msmpi.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\IntelSWTools\OpenCL\sdk\lib\x86\OpenCL.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\vasu_\Desktop\Rishabh\OpenCL\x64\Debug\OpenCL.exe : fatal error LNK1120: 27 unresolved externals
